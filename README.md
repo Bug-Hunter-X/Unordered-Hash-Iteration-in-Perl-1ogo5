@@ -1,0 +1,1 @@
+This repository contains a Perl script demonstrating an issue with unordered hash iteration. The script showcases how iterating through the keys and values of a hash does not preserve the insertion order.  The solution demonstrates a correct approach to maintain order if needed.
