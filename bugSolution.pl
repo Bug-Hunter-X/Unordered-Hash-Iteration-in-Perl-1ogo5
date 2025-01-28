@@ -1,0 +1,1 @@
+use strict; use warnings; my %hash = (a => 1, b => 2, c => 3); print "Keys:\n"; foreach my $key (sort keys %hash) { print "$key\n"; } print "Values:\n"; foreach my $value (sort { $hash{$a} <=> $hash{$b} } values %hash) { print "$value\n"; } print "Specific Value: $hash{a}\n"; 
